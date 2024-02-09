@@ -3,9 +3,9 @@ package mailer
 import (
 	"context"
 
-	"github.com/nafisalfiani/ketson-go-lib/email"
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-notification-service/entity"
+	"github.com/nafisalfiani/ketson-notification-service/lib/email"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
 )
 
 type Interface interface {

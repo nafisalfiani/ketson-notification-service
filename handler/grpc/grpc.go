@@ -6,10 +6,10 @@ import (
 	"net"
 
 	"github.com/go-playground/validator/v10"
-	jwtAuth "github.com/nafisalfiani/ketson-go-lib/auth"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/security"
 	"github.com/nafisalfiani/ketson-notification-service/handler/grpc/email"
+	jwtAuth "github.com/nafisalfiani/ketson-notification-service/lib/auth"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
+	"github.com/nafisalfiani/ketson-notification-service/lib/security"
 	"github.com/nafisalfiani/ketson-notification-service/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

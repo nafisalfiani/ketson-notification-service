@@ -1,11 +1,11 @@
 package domain
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/email"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/parser"
 	"github.com/nafisalfiani/ketson-notification-service/domain/mailer"
+	"github.com/nafisalfiani/ketson-notification-service/lib/broker"
+	"github.com/nafisalfiani/ketson-notification-service/lib/email"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
+	"github.com/nafisalfiani/ketson-notification-service/lib/parser"
 )
 
 type Domains struct {

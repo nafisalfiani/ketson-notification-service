@@ -1,12 +1,12 @@
 package config
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/auth"
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/email"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/security"
 	"github.com/nafisalfiani/ketson-notification-service/handler/grpc"
+	"github.com/nafisalfiani/ketson-notification-service/lib/auth"
+	"github.com/nafisalfiani/ketson-notification-service/lib/broker"
+	"github.com/nafisalfiani/ketson-notification-service/lib/email"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
+	"github.com/nafisalfiani/ketson-notification-service/lib/security"
 )
 
 type Application struct {

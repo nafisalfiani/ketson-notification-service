@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/parser"
 	"github.com/nafisalfiani/ketson-notification-service/entity"
+	"github.com/nafisalfiani/ketson-notification-service/lib/broker"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
+	"github.com/nafisalfiani/ketson-notification-service/lib/parser"
 	"github.com/nafisalfiani/ketson-notification-service/usecase/mailer"
 )
 

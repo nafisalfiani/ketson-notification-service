@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-notification-service/domain"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
 	"github.com/nafisalfiani/ketson-notification-service/usecase/mailer"
 )
 

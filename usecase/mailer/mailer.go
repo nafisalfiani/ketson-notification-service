@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nafisalfiani/ketson-go-lib/header"
 	mailerDom "github.com/nafisalfiani/ketson-notification-service/domain/mailer"
 	"github.com/nafisalfiani/ketson-notification-service/entity"
+	"github.com/nafisalfiani/ketson-notification-service/lib/header"
 )
 
 type Config struct {

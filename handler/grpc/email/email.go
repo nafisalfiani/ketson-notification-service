@@ -3,8 +3,8 @@ package email
 import (
 	context "context"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-notification-service/entity"
+	"github.com/nafisalfiani/ketson-notification-service/lib/log"
 	"github.com/nafisalfiani/ketson-notification-service/usecase/mailer"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )
